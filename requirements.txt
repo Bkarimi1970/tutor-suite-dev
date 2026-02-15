@@ -3,3 +3,4 @@ streamlit-authenticator
 python-dotenv
 groq
 matplotlib
+sympy
