@@ -14,3 +14,8 @@ frontend/node_modules/
 frontend/.next/
 frontend/out/
 frontend/.env*
+
+# Ignore secrets
+backend/.streamlit/secrets.toml
+**/secrets.toml
+.env
