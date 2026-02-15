@@ -1,0 +1,26 @@
+{
+  "request": {
+    "user_id": "string",
+    "level": "beginner|intermediate|advanced",
+    "mode": "solve|attempt",
+    "problem": "string",
+    "student_step": "string (optional)",
+    "meta": {
+      "source": "web|cli|api",
+      "timestamp": "iso8601 (optional)"
+    }
+  },
+  "response": {
+    "status": "ok|error",
+    "topic": "string",
+    "final_answer": "string (optional)",
+    "steps": ["string"],
+    "feedback": "string",
+    "diagnosis": ["string"],
+    "next_practice": ["string"],
+    "mastery_update": {
+      "concept": "delta_float"
+    },
+    "error": "string (optional)"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "student_name": "Student",
+  "level": "grade10",
+  "style": "detailed",
+  "goals": [],
+  "weak_skills": [],
+  "strengths": [],
+  "recent_topics": [],
+  "mistake_patterns": [],
+  "engagement": {
+    "prefers_socratic": true,
+    "max_clarifying_questions": 1
+  }
+}

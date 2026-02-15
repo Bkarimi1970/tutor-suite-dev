@@ -1,0 +1,15 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: white;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+}
+
+#root {
+  min-height: 100%;
+}
