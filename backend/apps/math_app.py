@@ -5,6 +5,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sympy as sp
 import streamlit as st
+CLOUDFLARE_LOGOUT_URL = "https://bahmankarimi.cloudflareaccess.com/cdn-cgi/access/logout"
+
+with st.sidebar:
+    st.markdown("### Account")
+    st.link_button("🚪 Log out", CLOUDFLARE_LOGOUT_URL)
 from core.groq_client import groq_chat
 
 def require_access():
