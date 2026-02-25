@@ -1,5 +1,9 @@
 import streamlit as st
 
+with st.sidebar:
+    st.success("✅ Deployed: logout-test v1")
+import streamlit as st
+
 CLOUDFLARE_LOGOUT_URL = "https://bahmankarimi.cloudflareaccess.com/cdn-cgi/access/logout"
 
 with st.sidebar:
